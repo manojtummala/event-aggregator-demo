@@ -9,3 +9,5 @@ This repository contains the simple working design of the Event-Aggregator platf
 ## Code of Conduct
 
 You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
+
+## Just making a small change for PR test.

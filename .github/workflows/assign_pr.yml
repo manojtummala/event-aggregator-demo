@@ -1,4 +1,4 @@
-name: 'Auto Assign PR'
+name: 'Add Project Lead as Reviewer'
 
 on:
   pull_request:

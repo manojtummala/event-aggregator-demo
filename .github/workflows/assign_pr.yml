@@ -1,13 +1,10 @@
 name: 'Add Project Lead as Reviewer'
-
-on:
-  pull_request:
+on: pull_request
 
 jobs:
   add-reviews:
     runs-on: ubuntu-latest
     steps:
-      - uses: AveryCameronUofR/add-reviewer-gh-action@1.0.3
-        with: 
-          reviewers: "KamalDGRT"
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: kentaro-m/auto-assign-action@v1.1.2
+        with:
+          configuration-path: ".github/auto_assign.yml"
